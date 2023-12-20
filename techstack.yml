@@ -1,0 +1,42 @@
+repo_name: ammaralnajim/lab2-lS
+report_id: f299683e3048add773e716f33253b6c6
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-20T18:35:26+00:00'
+requested_by: ammaralnajim
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source: Vagrantfile
+  last_updated_by: ammaralnajim
+  last_updated_on: 2023-04-05 22:41:14.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: file.txt
+  last_updated_by: octopus237
+  last_updated_on: 2023-04-05 22:51:36.000000000 Z
